@@ -1,4 +1,4 @@
-package com.laluhilman.customslider.customviews;
+package com.laluhilman.customsliderlibrary;
 
 
 import android.annotation.TargetApi;
@@ -8,7 +8,8 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.RelativeLayout;
 
-import com.laluhilman.customslider.R;
+import com.laluhilman.customsliderlibrary.R;
+
 
 /**
  * Created by laluhilman on 25/10/17.

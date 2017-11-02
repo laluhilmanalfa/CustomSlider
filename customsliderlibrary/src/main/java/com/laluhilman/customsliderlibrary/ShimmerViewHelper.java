@@ -1,4 +1,4 @@
-package com.laluhilman.customslider.customviews;
+package com.laluhilman.customsliderlibrary;
 
 
 import android.content.res.TypedArray;
@@ -9,7 +9,8 @@ import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.laluhilman.customslider.R;
+import com.laluhilman.customsliderlibrary.R;
+
 
 /**
  * Shimmer

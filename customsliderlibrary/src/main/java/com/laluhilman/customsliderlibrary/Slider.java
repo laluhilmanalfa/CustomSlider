@@ -1,4 +1,4 @@
-package com.laluhilman.customslider.customviews;
+package com.laluhilman.customsliderlibrary;
 
 
 import android.animation.ValueAnimator;
@@ -15,7 +15,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.laluhilman.customslider.R;
+import com.laluhilman.customsliderlibrary.R;
+
 
 public class Slider extends View implements View.OnClickListener {
 

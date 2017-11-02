@@ -1,0 +1,19 @@
+<resources>
+    <declare-styleable name="Slider">
+        <attr name="circleColor" format="color" />
+        <attr name="baseColor" format="color" />
+        <attr name="fillColor" format="color" />
+        <attr name="labelText" format="string" />
+        <attr name="toogleIndicatorValue" format="integer" />
+        <attr name="shadowColor" format="color" />
+
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="ShimmerView">
+        <attr name="reflectionColor" format="color"/>
+    </declare-styleable>
+
+</resources>

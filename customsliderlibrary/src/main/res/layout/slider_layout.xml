@@ -7,10 +7,10 @@
 
 
 
-    <com.laluhilman.customslider.customviews.ShimmerTextView
+    <com.laluhilman.customsliderlibrary.ShimmerTextView
         android:layout_centerInParent="true"
         android:id="@+id/shimmer_tv"
-        android:text="Testing S"
+        android:text="Testing Slider"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#444"
@@ -18,17 +18,17 @@
         android:layout_gravity="center" />
 
 
-    <com.laluhilman.customslider.customviews.Slider
-    android:layout_centerInParent="true"
-    android:id="@+id/valueBar"
-    android:layout_width="match_parent"
-    android:layout_height="75dp"
-    custom:baseColor="@color/gray_transparant"
-    custom:fillColor="@color/red"
-    custom:circleColor="@color/red"
-    custom:labelText="@string/valueBarLabel"
-    custom:shadowColor="@color/gray"
-    />
+    <com.laluhilman.customsliderlibrary.Slider
+        android:layout_centerInParent="true"
+        android:id="@+id/valueBar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        custom:baseColor="@color/gray_transparant"
+        custom:fillColor="@color/red"
+        custom:circleColor="@color/red"
+        custom:labelText="@string/valueBarLabel"
+        custom:shadowColor="@color/gray"
+        />
 
 
 </RelativeLayout>

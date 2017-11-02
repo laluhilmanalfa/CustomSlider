@@ -11,11 +11,11 @@
     tools:context=".MainActivity">
 
 
-    <com.laluhilman.customslider.customviews.JJASliderCheckOut
+    <com.laluhilman.customsliderlibrary.JJASliderCheckOut
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
-    </com.laluhilman.customslider.customviews.JJASliderCheckOut>
+    </com.laluhilman.customsliderlibrary.JJASliderCheckOut>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.laluhilman.customslider.customviews;
+package com.laluhilman.customsliderlibrary;
 
 
 import android.content.Context;
