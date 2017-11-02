@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <com.laluhilman.customslider.customviews.ShimmerTextView
+        android:layout_centerInParent="true"
+        android:id="@+id/shimmer_tv"
+        android:text="Testing S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#444"
+        android:textSize="15dp"
+        android:layout_gravity="center" />
+
+
+    <com.laluhilman.customslider.customviews.Slider
+    android:layout_centerInParent="true"
+    android:id="@+id/valueBar"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    custom:baseColor="@color/gray_transparant"
+    custom:fillColor="@color/red"
+    custom:circleColor="@color/red"
+    custom:labelText="@string/valueBarLabel"
+    custom:shadowColor="@color/gray"
+    />
+
+
+</RelativeLayout>
